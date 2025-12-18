@@ -1,0 +1,7 @@
+name: 'Demo Action'
+description: 'Demonstrates tag mutation risk'
+runs:
+  using: 'composite'
+  steps:
+    - shell: bash
+      run: echo "safe"
